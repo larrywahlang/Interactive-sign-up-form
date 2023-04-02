@@ -204,21 +204,25 @@ input:focus {
     margin-top: 2em;
   }
   label {
-    font-size: 2em;
+    font-size: 1.3rem;
   }
   .form--input {
     height: 60px;
     margin-bottom: 10px;
+    font-size: 1rem;
   }
 
   .form--input-password {
     height: 60px;
+    font-size: 1rem;
   }
   .validate {
     font-size: 1em;
     margin-bottom: 1em;
   }
-
+  .validated {
+    font-size: 1em;
+  }
   .form--submit {
     /* height: 4em; */
     font-size: 1.7rem;
@@ -233,8 +237,8 @@ input:focus {
     width: 2.6rem;
   }
   .sign-up {
-    margin-top: 40%;
-    font-size: 1rem;
+    margin-top: 20%;
+    font-size: 0.8rem;
   }
   .fa-eye {
     width: 30px;
