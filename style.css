@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #e8e8e8;
   font-family: "Montserrat", sans-serif;
 }
@@ -63,7 +65,6 @@ input:focus {
   border-color: rgba(167, 139, 250);
 }
 .form--submit {
-  width: 50%;
   padding: 0.625em;
 
   color: rgba(17, 24, 39, 1);
@@ -143,7 +144,7 @@ input:focus {
 }
 
 .social-message .message {
-  display: inline;
+  /* display: inline; */
   font-family: "Montserrat", sans-serif;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -183,4 +184,59 @@ input:focus {
 }
 .sign-up a:hover {
   text-decoration: underline rgba(167, 139, 250, 1);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgba(17, 24, 39, 1);
+  }
+  .signup {
+    font-size: 2.4rem;
+  }
+  .form {
+    width: 100%;
+    padding: 1em;
+    box-shadow: none;
+    height: 100vh;
+    /* border: 2px solid white; */
+  }
+  .email_input {
+    margin-top: 2em;
+  }
+  label {
+    font-size: 2em;
+  }
+  .form--input {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .form--input-password {
+    height: 60px;
+  }
+  .validate {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+
+  .form--submit {
+    /* height: 4em; */
+    font-size: 1.7rem;
+  }
+
+  .social-message .message {
+    font-size: 1.3rem;
+  }
+
+  .social-icons .icon svg {
+    height: 2.6rem;
+    width: 2.6rem;
+  }
+  .sign-up {
+    margin-top: 40%;
+    font-size: 1rem;
+  }
+  .fa-eye {
+    width: 30px;
+  }
 }
