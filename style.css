@@ -236,6 +236,9 @@ input:focus {
     height: 2.6rem;
     width: 2.6rem;
   }
+  .success p {
+    font-size: 1rem;
+  }
   .sign-up {
     margin-top: 20%;
     font-size: 0.8rem;
