@@ -1,0 +1,186 @@
+body {
+  background-color: #e8e8e8;
+  font-family: "Montserrat", sans-serif;
+}
+.form {
+  width: 300px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 3.125em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+  background-color: rgba(17, 24, 39, 1);
+}
+
+.signup {
+  color: rgba(243, 244, 246, 1);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+label {
+  display: block;
+  color: rgba(156, 163, 175, 1);
+  margin-bottom: 4px;
+}
+.form--input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1.25em;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8em;
+  font-family: "Inter", sans-serif;
+  outline: none;
+  border: 1px solid rgba(55, 65, 81, 1);
+  background-color: rgba(17, 24, 39, 1);
+  color: rgba(243, 244, 246, 1);
+}
+
+.form--input-password {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8em;
+  font-family: "Inter", sans-serif;
+  outline: none;
+  border: 1px solid rgba(55, 65, 81, 1);
+  background-color: rgba(17, 24, 39, 1);
+  color: rgba(243, 244, 246, 1);
+}
+
+input:focus {
+  border-color: rgba(167, 139, 250);
+}
+.form--submit {
+  width: 50%;
+  padding: 0.625em;
+
+  color: rgba(17, 24, 39, 1);
+  background-color: rgba(167, 139, 250, 1);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+}
+
+.validate {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(156, 163, 175, 1);
+  font-size: 0.7rem;
+  margin: 2px;
+}
+.validated {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(167, 139, 250, 1);
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.password-validation {
+  width: 100%;
+  margin: 0.4em auto 1.6em auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.validation {
+  width: 100%;
+}
+
+.success-validation {
+  color: rgba(156, 163, 175, 1);
+  width: 100%;
+  margin: 0 auto 1.6em auto;
+  padding: 1px 0 1px 4px;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 54%;
+  right: 4%;
+  cursor: pointer;
+  width: 18px;
+}
+.email_input {
+  width: 100%;
+}
+.pass {
+  width: 100%;
+  position: relative;
+}
+.success {
+  margin-top: 0;
+}
+.social-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.linen {
+  height: 1px;
+  flex: 1 1 0%;
+  background-color: rgb(214, 220, 229);
+}
+
+.social-message .message {
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgba(156, 163, 175, 1);
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons .icon {
+  border-radius: 0.125rem;
+  padding: 0.75rem;
+  border: none;
+  background-color: transparent;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.social-icons .icon svg {
+  height: 1.25rem;
+  width: 1.25rem;
+  fill: #fff;
+}
+.sign-up {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(156, 163, 175, 1);
+}
+.sign-up a {
+  color: rgba(243, 244, 246, 1);
+  text-decoration: none;
+  font-size: 14px;
+}
+.sign-up a:hover {
+  text-decoration: underline rgba(167, 139, 250, 1);
+}
