@@ -19,14 +19,14 @@ const Pattern=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8
 
 password.addEventListener('input', function(){
 
-    if(Pattern.test(password.value)){
-        success.innerHTML=`<div class="success-validation">
-        <p> ✔️ Your password is secure. You can now sign up.</p>
-      </div>`
-    }
-    else{
-        success.innerHTML=``
-    }
+   if(Pattern.test(password.value)){
+      success.innerHTML=`
+       <p> ✔️ Your password is secure. You can now sign up.</p>
+   `
+   }
+   else{
+   success.innerHTML=``
+   }
 
    
 })

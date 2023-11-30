@@ -21,11 +21,14 @@
     <form class="form">
       <span class="signup">Sign Up</span>
       <div class="email_input">
-        <label for="email">Email</label>
+        <label for="email" id="label-email">Email</label>
         <input type="email" class="form--input" name="email" />
       </div>
       <div class="pass">
-        <label for="password">Password</label>
+        <div class="pass-flex">
+          <label for="password" id="label-password">Password</label>
+          <div class="success" id="success"></div>
+        </div>
         <input
           id="password"
           type="password"
@@ -42,7 +45,6 @@
           <li class="validate" id="special">One Special Character</li>
           <li class="validate" id="minimum">8 Minimum Characters</li>
         </ul>
-        <div class="success" id="success"></div>
       </div>
       <button class="form--submit">Sign up</button>
       <div class="social-message">
