@@ -265,9 +265,7 @@ input:focus {
     height: 1rem;
     width: 1rem;
   }
-  .success p {
-    font-size: 1rem;
-  }
+
   .sign-up {
     margin-top: 10%;
     font-size: 1rem;
@@ -277,6 +275,12 @@ input:focus {
   }
 
   .password-validation li {
+    font-size: 10px;
+  }
+  .pass-flex {
+    gap: 20px;
+  }
+  .pass-flex .success-msg .success {
     font-size: 10px;
   }
 }
