@@ -213,12 +213,14 @@ input:focus {
   body {
     background-color: rgba(17, 24, 39, 1);
   }
+  .statement {
+    display: block;
+    color: #e8e8e8;
+  }
   .signup {
     font-size: 1.6rem;
   }
-  .statement {
-    display: none;
-  }
+
   .form {
     width: 80%;
     padding: 20px 10px;
@@ -271,7 +273,7 @@ input:focus {
     font-size: 1rem;
   }
   .fa-eye {
-    width: 30px;
+    width: 20px;
   }
 
   .password-validation li {
