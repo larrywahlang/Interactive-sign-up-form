@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <p class="statement">
+      Please enter a password to<br />
+      see the interactive effects
+    </p>
     <form class="form">
       <span class="signup">Sign Up</span>
       <div class="email_input">
@@ -31,13 +35,13 @@
         <img src="images/eye-2.png" class="fa-eye" id="eye" />
       </div>
       <div class="validation" id="validation">
-        <div class="password-validation">
-          <p class="validate" id="uppercase">One uppercase letter</p>
-          <p class="validate" id="lowercase">One lowercase letter</p>
-          <p class="validate" id="number">One number</p>
-          <p class="validate" id="special">One special character</p>
-          <p class="validate" id="minimum">8 minimum characters</p>
-        </div>
+        <ul class="password-validation">
+          <li class="validate" id="uppercase">One Uppercase Letter</li>
+          <li class="validate" id="lowercase">One Lowercase Letter</li>
+          <li class="validate" id="number">One Number</li>
+          <li class="validate" id="special">One Special Character</li>
+          <li class="validate" id="minimum">8 Minimum Characters</li>
+        </ul>
         <div class="success" id="success"></div>
       </div>
       <button class="form--submit">Sign up</button>

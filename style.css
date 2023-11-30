@@ -3,10 +3,21 @@ body {
   padding: 0;
   background-color: #e8e8e8;
   font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.statement {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 .form {
-  width: 300px;
-  margin: 0 auto;
+  width: 330px;
+  /* height: 400px; */
   background-color: white;
   padding: 3.125em;
   border-radius: 10px;
@@ -92,7 +103,10 @@ input:focus {
 
 .password-validation {
   width: 100%;
-  margin: 0.4em auto 1.6em auto;
+  /* margin: 0.4em auto 1.6em auto; */
+  padding-left: 0;
+  list-style-position: outside;
+  margin-left: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -193,12 +207,18 @@ input:focus {
   .signup {
     font-size: 2.4rem;
   }
+  .statement {
+    display: none;
+  }
   .form {
-    width: 100%;
-    padding: 1em;
+    width: 80%;
+    padding: 20px 10px;
     box-shadow: none;
-    height: 100vh;
+    /* height: 100vh; */
     /* border: 2px solid white; */
+  }
+  .validation li {
+    margin: 3px;
   }
   .email_input {
     margin-top: 2em;
